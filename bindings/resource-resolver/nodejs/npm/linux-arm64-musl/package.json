@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager-resource-resolver-linux-arm64-musl",
+  "name": "@rooms-solutions/packager-resource-resolver-linux-arm64-musl",
   "version": "0.0.0",
   "os": [
     "linux"

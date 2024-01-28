@@ -1,3 +1,3 @@
-# `@crabnebula/updater-linux-arm64-gnu`
+# `@rooms-solutions/updater-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `@crabnebula/updater`
+This is the **aarch64-unknown-linux-gnu** binary for `@rooms-solutions/updater`

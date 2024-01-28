@@ -10,9 +10,9 @@ const binStem = path.parse(bin).name.toLowerCase();
 // can successfully detect what command likely started the execution.
 let binName;
 
-// deno run -A --unstable --node-modules-dir npm:@crabnebula/packager
-if (bin === "@crabnebula/packager") {
-  binName = "@crabnebula/packager";
+// deno run -A --unstable --node-modules-dir npm:@rooms-solutions/packager
+if (bin === "@rooms-solutions/packager") {
+  binName = "@rooms-solutions/packager";
 }
 // Even if started by a package manager, the binary will be NodeJS.
 // Some distribution still use "nodejs" as the binary name.

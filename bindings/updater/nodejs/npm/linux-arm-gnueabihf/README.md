@@ -1,3 +1,3 @@
-# `@crabnebula/updater-linux-arm-gnueabihf`
+# `@rooms-solutions/updater-linux-arm-gnueabihf`
 
-This is the **armv7-unknown-linux-gnueabihf** binary for `@crabnebula/updater`
+This is the **armv7-unknown-linux-gnueabihf** binary for `@rooms-solutions/updater`

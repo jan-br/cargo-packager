@@ -42,7 +42,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.android-arm64.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-android-arm64");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-android-arm64");
           }
         } catch (e) {
           loadError = e;
@@ -56,7 +56,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.android-arm-eabi.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-android-arm-eabi");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-android-arm-eabi");
           }
         } catch (e) {
           loadError = e;
@@ -76,7 +76,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.win32-x64-msvc.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-win32-x64-msvc");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-win32-x64-msvc");
           }
         } catch (e) {
           loadError = e;
@@ -90,7 +90,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.win32-ia32-msvc.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-win32-ia32-msvc");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-win32-ia32-msvc");
           }
         } catch (e) {
           loadError = e;
@@ -104,7 +104,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.win32-arm64-msvc.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-win32-arm64-msvc");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-win32-arm64-msvc");
           }
         } catch (e) {
           loadError = e;
@@ -122,7 +122,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require("./packager-resource-resolver.darwin-universal.node");
       } else {
-        nativeBinding = require("@crabnebula/packager-resource-resolver-darwin-universal");
+        nativeBinding = require("@rooms-solutions/packager-resource-resolver-darwin-universal");
       }
       break;
     } catch {}
@@ -135,7 +135,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.darwin-x64.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-darwin-x64");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-darwin-x64");
           }
         } catch (e) {
           loadError = e;
@@ -149,7 +149,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.darwin-arm64.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-darwin-arm64");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-darwin-arm64");
           }
         } catch (e) {
           loadError = e;
@@ -170,7 +170,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require("./packager-resource-resolver.freebsd-x64.node");
       } else {
-        nativeBinding = require("@crabnebula/packager-resource-resolver-freebsd-x64");
+        nativeBinding = require("@rooms-solutions/packager-resource-resolver-freebsd-x64");
       }
     } catch (e) {
       loadError = e;
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require("./packager-resource-resolver.linux-x64-musl.node");
             } else {
-              nativeBinding = require("@crabnebula/packager-resource-resolver-linux-x64-musl");
+              nativeBinding = require("@rooms-solutions/packager-resource-resolver-linux-x64-musl");
             }
           } catch (e) {
             loadError = e;
@@ -200,7 +200,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require("./packager-resource-resolver.linux-x64-gnu.node");
             } else {
-              nativeBinding = require("@crabnebula/packager-resource-resolver-linux-x64-gnu");
+              nativeBinding = require("@rooms-solutions/packager-resource-resolver-linux-x64-gnu");
             }
           } catch (e) {
             loadError = e;
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require("./packager-resource-resolver.linux-arm64-musl.node");
             } else {
-              nativeBinding = require("@crabnebula/packager-resource-resolver-linux-arm64-musl");
+              nativeBinding = require("@rooms-solutions/packager-resource-resolver-linux-arm64-musl");
             }
           } catch (e) {
             loadError = e;
@@ -229,7 +229,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require("./packager-resource-resolver.linux-arm64-gnu.node");
             } else {
-              nativeBinding = require("@crabnebula/packager-resource-resolver-linux-arm64-gnu");
+              nativeBinding = require("@rooms-solutions/packager-resource-resolver-linux-arm64-gnu");
             }
           } catch (e) {
             loadError = e;
@@ -247,7 +247,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require("./packager-resource-resolver.linux-arm-gnueabihf.node");
           } else {
-            nativeBinding = require("@crabnebula/packager-resource-resolver-linux-arm-gnueabihf");
+            nativeBinding = require("@rooms-solutions/packager-resource-resolver-linux-arm-gnueabihf");
           }
         } catch (e) {
           loadError = e;

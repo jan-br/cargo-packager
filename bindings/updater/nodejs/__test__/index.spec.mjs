@@ -5,7 +5,7 @@ import * as path from "path";
 import { execa } from "execa";
 import { fileURLToPath } from "url";
 import { App } from "@tinyhttp/app";
-import { packageAndSignApp } from "@crabnebula/packager";
+import { packageAndSignApp } from "@rooms-solutions/packager";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const __dirname = fileURLToPath(new URL(".", import.meta.url));

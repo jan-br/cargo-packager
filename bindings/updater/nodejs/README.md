@@ -1,14 +1,14 @@
-# @crabnebula/updater
+# @rooms-solutions/updater
 
-Updater for apps that was packaged by [`@crabnebula/packager`](https://www.npmjs.com/package/@crabnebula/packager).
+Updater for apps that was packaged by [`@rooms-solutions/packager`](https://www.npmjs.com/package/@rooms-solutions/packager).
 
 ```sh
 # pnpm
-pnpm add @crabnebula/updater
+pnpm add @rooms-solutions/updater
 # yarn
-yarn add @crabnebula/updater
+yarn add @rooms-solutions/updater
 # npm
-npm i @crabnebula/updater
+npm i @rooms-solutions/updater
 ```
 
 ## Checking for an update
@@ -17,7 +17,7 @@ you can check for an update using `checkUpdate` function which require the curre
 an options object that specifies the endpoints to request updates from and the public key of the update signature.
 
 ```js
-import { checkUpdate } from "@crabnebula/updater";
+import { checkUpdate } from "@rooms-solutions/updater";
 
 let update = await checkUpdate("0.1.0", {
   endpoints: ["http://myserver.com/updates"],

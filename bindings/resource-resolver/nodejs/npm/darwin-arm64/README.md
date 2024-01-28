@@ -1,3 +1,3 @@
-# `@crabnebula/packager-resource-resolver-darwin-arm64`
+# `@rooms-solutions/packager-resource-resolver-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `@crabnebula/packager-resource-resolver`
+This is the **aarch64-apple-darwin** binary for `@rooms-solutions/packager-resource-resolver`

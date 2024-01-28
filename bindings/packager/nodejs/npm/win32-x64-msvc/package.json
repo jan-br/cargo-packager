@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager-win32-x64-msvc",
+  "name": "@rooms-solutions/packager-win32-x64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"

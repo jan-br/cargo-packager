@@ -1,4 +1,4 @@
-name: Publish `@crabnebula/updater`
+name: Publish `@rooms-solutions/updater`
 
 env:
   DEBUG: napi:*
@@ -8,12 +8,13 @@ env:
 permissions:
   contents: write
   id-token: write
+  packages: write
 
 on:
   workflow_dispatch:
     inputs:
       releaseId:
-        description: "ID of the `@crabnebula/updater` release"
+        description: "ID of the `@rooms-solutions/updater` release"
         required: true
   repository_dispatch:
     types: [publish-updater-nodejs]
@@ -413,9 +414,8 @@ jobs:
         shell: bash
       - name: Publish
         run: |
-          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=GITHUB_TOKEN" >> ~/.npmrc
           npm publish --access public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           RELEASE_ID: ${{ github.event.client_payload.releaseId || inputs.releaseId }}

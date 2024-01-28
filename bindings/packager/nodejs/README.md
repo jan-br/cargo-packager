@@ -1,10 +1,10 @@
-# @crabnebula/packager
+# @rooms-solutions/packager
 
 Executable packager, bundler and updater. A cli tool and library to generate installers or app bundles for your executables.
 It also comes with useful addons:
 
-- an [updater](https://www.npmjs.com/package/@crabnebula/updater)
-- a [resource resolver](https://www.npmjs.com/package/@crabnebula/packager-resource-resolver)
+- an [updater](https://www.npmjs.com/package/@rooms-solutions/updater)
+- a [resource resolver](https://www.npmjs.com/package/@rooms-solutions/packager-resource-resolver)
 
 #### Supported packages:
 
@@ -25,11 +25,11 @@ The packager is distributed on NPM as a CLI, you can install it:
 
 ```sh
 # pnpm
-pnpm add -D @crabnebula/packager
+pnpm add -D @rooms-solutions/packager
 # yarn
-yarn add -D @crabnebula/packager
+yarn add -D @rooms-solutions/packager
 # npm
-npm i -D @crabnebula/packager
+npm i -D @rooms-solutions/packager
 ```
 
 You then need to configure your app so the CLI can recognize it.

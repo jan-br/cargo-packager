@@ -37,7 +37,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.android-arm64.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-android-arm64')
+            nativeBinding = require('@rooms-solutions/packager-android-arm64')
           }
         } catch (e) {
           loadError = e
@@ -49,7 +49,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.android-arm-eabi.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-android-arm-eabi')
+            nativeBinding = require('@rooms-solutions/packager-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -69,7 +69,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-win32-x64-msvc')
+            nativeBinding = require('@rooms-solutions/packager-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -83,7 +83,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-win32-ia32-msvc')
+            nativeBinding = require('@rooms-solutions/packager-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,7 +97,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-win32-arm64-msvc')
+            nativeBinding = require('@rooms-solutions/packager-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -113,7 +113,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./packager.darwin-universal.node')
       } else {
-        nativeBinding = require('@crabnebula/packager-darwin-universal')
+        nativeBinding = require('@rooms-solutions/packager-darwin-universal')
       }
       break
     } catch {}
@@ -124,7 +124,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.darwin-x64.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-darwin-x64')
+            nativeBinding = require('@rooms-solutions/packager-darwin-x64')
           }
         } catch (e) {
           loadError = e
@@ -138,7 +138,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.darwin-arm64.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-darwin-arm64')
+            nativeBinding = require('@rooms-solutions/packager-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -157,7 +157,7 @@ switch (platform) {
       if (localFileExisted) {
         nativeBinding = require('./packager.freebsd-x64.node')
       } else {
-        nativeBinding = require('@crabnebula/packager-freebsd-x64')
+        nativeBinding = require('@rooms-solutions/packager-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -174,7 +174,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./packager.linux-x64-musl.node')
             } else {
-              nativeBinding = require('@crabnebula/packager-linux-x64-musl')
+              nativeBinding = require('@rooms-solutions/packager-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
@@ -187,7 +187,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./packager.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('@crabnebula/packager-linux-x64-gnu')
+              nativeBinding = require('@rooms-solutions/packager-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -203,7 +203,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./packager.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('@crabnebula/packager-linux-arm64-musl')
+              nativeBinding = require('@rooms-solutions/packager-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
@@ -216,7 +216,7 @@ switch (platform) {
             if (localFileExisted) {
               nativeBinding = require('./packager.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('@crabnebula/packager-linux-arm64-gnu')
+              nativeBinding = require('@rooms-solutions/packager-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -231,7 +231,7 @@ switch (platform) {
           if (localFileExisted) {
             nativeBinding = require('./packager.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('@crabnebula/packager-linux-arm-gnueabihf')
+            nativeBinding = require('@rooms-solutions/packager-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e

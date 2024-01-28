@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager-resource-resolver-win32-arm64-msvc",
+  "name": "@rooms-solutions/packager-resource-resolver-win32-arm64-msvc",
   "version": "0.0.0",
   "os": [
     "win32"

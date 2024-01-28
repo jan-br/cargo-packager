@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/updater-linux-arm-gnueabihf",
+  "name": "@rooms-solutions/updater-linux-arm-gnueabihf",
   "version": "0.0.0",
   "os": [
     "linux"

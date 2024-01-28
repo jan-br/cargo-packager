@@ -1,3 +1,3 @@
-# `@crabnebula/packager-linux-x64-musl`
+# `@rooms-solutions/packager-linux-x64-musl`
 
-This is the **x86_64-unknown-linux-musl** binary for `@crabnebula/packager`
+This is the **x86_64-unknown-linux-musl** binary for `@rooms-solutions/packager`

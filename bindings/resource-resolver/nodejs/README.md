@@ -1,6 +1,6 @@
-# @crabnebula/packager-resource-resolver
+# @rooms-solutions/packager-resource-resolver
 
-Resource resolver for apps that was packaged by [`@crabnebula/packager`](https://www.npmjs.com/package/@crabnebula/packager).
+Resource resolver for apps that was packaged by [`@rooms-solutions/packager`](https://www.npmjs.com/package/@rooms-solutions/packager).
 
 It resolves the root path which contains resources, which was set using the `resources` field of [cargo packager configuration](https://docs.rs/cargo-packager/latest/cargo_packager/config/struct.Config.html).
 
@@ -10,7 +10,7 @@ It resolves the root path which contains resources, which was set using the `res
 import {
   resourcesDir,
   PackageFormat,
-} from "@crabnebula/packager-resource-resolver";
+} from "@rooms-solutions/packager-resource-resolver";
 
 const dir = resourcesDir(PackageFormat.Nsis);
 ```

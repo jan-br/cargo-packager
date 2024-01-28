@@ -49,30 +49,30 @@ jobs:
           labels: "version updates"
           body: ${{ steps.covector.outputs.change }}
 
-      - name: Trigger `@crabnebula/packager` publishing workflow
+      - name: Trigger `@rooms-solutions/packager` publishing workflow
         if: |
           steps.covector.outputs.successfulPublish == 'true' &&
-          contains(steps.covector.outputs.packagesPublished, '@crabnebula/packager')
+          contains(steps.covector.outputs.packagesPublished, '@rooms-solutions/packager')
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: publish-packager-nodejs
           client-payload: >-
             {"releaseId": "${{ steps.covector.outputs['-crabnebula-packager-releaseId'] }}" }
 
-      - name: Trigger `@crabnebula/updater` publishing workflow
+      - name: Trigger `@rooms-solutions/updater` publishing workflow
         if: |
           steps.covector.outputs.successfulPublish == 'true' &&
-          contains(steps.covector.outputs.packagesPublished, '@crabnebula/updater')
+          contains(steps.covector.outputs.packagesPublished, '@rooms-solutions/updater')
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: publish-updater-nodejs
           client-payload: >-
             {"releaseId": "${{ steps.covector.outputs['-crabnebula-updater-releaseId'] }}" }
 
-      - name: Trigger `@crabnebula/packager-resource-resolver` publishing workflow
+      - name: Trigger `@rooms-solutions/packager-resource-resolver` publishing workflow
         if: |
           steps.covector.outputs.successfulPublish == 'true' &&
-          contains(steps.covector.outputs.packagesPublished, '@crabnebula/packager-resource-resolver')
+          contains(steps.covector.outputs.packagesPublished, '@rooms-solutions/packager-resource-resolver')
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: publish-packager-resource-resolver-nodejs

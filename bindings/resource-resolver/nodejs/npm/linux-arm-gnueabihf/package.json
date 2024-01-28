@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager-resource-resolver-linux-arm-gnueabihf",
+  "name": "@rooms-solutions/packager-resource-resolver-linux-arm-gnueabihf",
   "version": "0.0.0",
   "os": [
     "linux"

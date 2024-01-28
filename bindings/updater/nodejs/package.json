@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/updater",
+  "name": "@rooms-solutions/updater",
   "version": "0.1.1",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -33,7 +33,7 @@
     "@types/node": "^20.8.10",
     "ava": "^6.0.0",
     "execa": "^8.0.1",
-    "@crabnebula/packager": "workspace:"
+    "@rooms-solutions/packager": "workspace:"
   },
   "ava": {
     "timeout": "3m"

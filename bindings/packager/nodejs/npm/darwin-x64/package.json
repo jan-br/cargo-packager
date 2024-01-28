@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager-darwin-x64",
+  "name": "@rooms-solutions/packager-darwin-x64",
   "version": "0.0.0",
   "os": [
     "darwin"

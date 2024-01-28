@@ -1,6 +1,6 @@
 const { app } = require("electron");
 const { join } = require("node:path");
-const { checkUpdate } = require("@crabnebula/updater");
+const { checkUpdate } = require("@rooms-solutions/updater");
 
 const UPDATER_PUB_KEY =
   "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDQ2Njc0OTE5Mzk2Q0ExODkKUldTSm9XdzVHVWxuUmtJdjB4RnRXZGVqR3NQaU5SVitoTk1qNFFWQ3pjL2hZWFVDOFNrcEVvVlcK";

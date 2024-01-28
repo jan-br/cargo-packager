@@ -121,7 +121,7 @@
         }
       ]
     },
-    "@crabnebula/packager": {
+    "@rooms-solutions/packager": {
       "path": "./bindings/packager/nodejs",
       "manager": "javascript",
       "dependencies": ["cargo-packager", "cargo-packager-utils"],
@@ -140,7 +140,7 @@
         }
       ]
     },
-    "@crabnebula/updater": {
+    "@rooms-solutions/updater": {
       "path": "./bindings/updater/nodejs",
       "manager": "javascript",
       "dependencies": ["cargo-packager-updater", "cargo-packager-utils"],
@@ -159,7 +159,7 @@
         }
       ]
     },
-    "@crabnebula/packager-resource-resolver": {
+    "@rooms-solutions/packager-resource-resolver": {
       "path": "./bindings/resource-resolver/nodejs",
       "manager": "javascript",
       "dependencies": [

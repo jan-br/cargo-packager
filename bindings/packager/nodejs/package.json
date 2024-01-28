@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/packager",
+  "name": "@rooms-solutions/packager",
   "version": "0.1.5",
   "main": "build/index.js",
   "module": "build/index.js",

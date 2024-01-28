@@ -1,5 +1,5 @@
 {
-  "name": "@crabnebula/updater-linux-x64-musl",
+  "name": "@rooms-solutions/updater-linux-x64-musl",
   "version": "0.0.0",
   "os": [
     "linux"

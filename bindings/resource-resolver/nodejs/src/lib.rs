@@ -2,7 +2,7 @@ use napi::{Result, Status};
 
 use cargo_packager_resource_resolver::PackageFormat as ResolverPackageFormat;
 
-/// Types of supported packages by [`@crabnebula/packager`](https://www.npmjs.com/package/@crabnebula/packager)
+/// Types of supported packages by [`@rooms-solutions/packager`](https://www.npmjs.com/package/@rooms-solutions/packager)
 #[derive(Debug, Eq, PartialEq)]
 #[napi_derive::napi(string_enum)]
 pub enum PackageFormat {

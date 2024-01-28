@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/crabnebula-dev/cargo-packager#readme",
   "dependencies": {
-    "@crabnebula/updater": "../.."
+    "@rooms-solutions/updater": "../.."
   },
   "devDependencies": {
     "electron": "^28.0.0"

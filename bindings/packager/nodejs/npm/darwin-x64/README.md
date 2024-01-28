@@ -1,3 +1,3 @@
-# `@crabnebula/packager-darwin-x64`
+# `@rooms-solutions/packager-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `@crabnebula/packager`
+This is the **x86_64-apple-darwin** binary for `@rooms-solutions/packager`

@@ -60,7 +60,7 @@ importers:
 
   bindings/updater/nodejs:
     devDependencies:
-      '@crabnebula/packager':
+      '@rooms-solutions/packager':
         specifier: 'workspace:'
         version: link:../../packager/nodejs
       '@napi-rs/cli':

@@ -1,3 +1,3 @@
-# `@crabnebula/updater-darwin-arm64`
+# `@rooms-solutions/updater-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `@crabnebula/updater`
+This is the **aarch64-apple-darwin** binary for `@rooms-solutions/updater`
